@@ -1,0 +1,16 @@
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\bin\Debug\project_QLBanXeMay.exe.config
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\bin\Debug\project_QLBanXeMay.exe
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\bin\Debug\project_QLBanXeMay.pdb
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.csprojAssemblyReference.cache
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.fmNhanVien.resources
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.Properties.Resources.resources
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.csproj.GenerateResource.cache
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.exe
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.pdb
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.fmHoaDon.resources
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.fmHome.resources
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.fmDangNhap.resources
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.fmSanPham.resources
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.fmKhachHang.resources
+C:\Users\asus\source\repos\project_QLBanXeMay\project_QLBanXeMay\obj\Debug\project_QLBanXeMay.fmNhaPhanPhoi.resources

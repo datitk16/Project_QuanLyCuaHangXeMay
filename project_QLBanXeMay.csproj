@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BFB47E4F-5084-48EB-9CAD-7115A873780E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>project_QLBanXeMay</RootNamespace>
+    <AssemblyName>project_QLBanXeMay</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BSLayer\BLHoaDon.cs" />
+    <Compile Include="BSLayer\BLKhachHang.cs" />
+    <Compile Include="BSLayer\BLNhanVien.cs" />
+    <Compile Include="BSLayer\BLNhaPhanPhoi.cs" />
+    <Compile Include="BSLayer\BLSanPham.cs" />
+    <Compile Include="fmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmDangNhap.Designer.cs">
+      <DependentUpon>fmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmHome.Designer.cs">
+      <DependentUpon>fmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmKhachHang.Designer.cs">
+      <DependentUpon>fmKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmNhanVien.Designer.cs">
+      <DependentUpon>fmNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmNhaPhanPhoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmNhaPhanPhoi.Designer.cs">
+      <DependentUpon>fmNhaPhanPhoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmSanPham.Designer.cs">
+      <DependentUpon>fmSanPham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fmHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmHoaDon.Designer.cs">
+      <DependentUpon>fmHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanLyBanXeMay.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyBanXeMay.dbml</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="fmDangNhap.resx">
+      <DependentUpon>fmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHoaDon.resx">
+      <DependentUpon>fmHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmHome.resx">
+      <DependentUpon>fmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmKhachHang.resx">
+      <DependentUpon>fmKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmNhanVien.resx">
+      <DependentUpon>fmNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmNhaPhanPhoi.resx">
+      <DependentUpon>fmNhaPhanPhoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmSanPham.resx">
+      <DependentUpon>fmSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="QuanLyBanXeMay.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>QuanLyBanXeMay.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyBanXeMay.dbml.layout">
+      <DependentUpon>QuanLyBanXeMay.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\iconAdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\iconAdd-removebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\iconEdit-removebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\iconDelete-removebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\iconSearch-removebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\iconExit-removebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\iconRealod-removebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\save__1_-removebg %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\cancel-removebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\logout-icon__1_-removebg.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
